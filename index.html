@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>The Mahabharata | An Epic Narrative</title>
+  <meta name="description" content="An accessible, easy-to-navigate web version of the ancient Indian epic, the Mahabharata. Explore all 18 books and their chapters.">
+  <meta name="keywords" content="Mahabharata, ancient epic, Hindu scripture, Pandavas, Kauravas, Bhagavad Gita">
+  <meta name="author" content="Debrup Mukherjee">
+
+  <!-- Stylesheet and Script -->
+  <link href="style.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+
+  <!-- JSON-LD Schema for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "The Mahabharata | An Epic Narrative",
+    "url": "https://dmukherjeetextiles.github.io/",
+    "mainEntity": {
+      "@type": "Book",
+      "name": "The Mahabharata",
+      "author": {
+        "@type": "Person",
+        "name": "Vyasa"
+      },
+      "genre": "Epic poetry",
+      "hasPart": [
+        {"@type": "Book", "name": "Book 1: Adi Parva"},
+        {"@type": "Book", "name": "Book 2: Sabha Parva"},
+        {"@type": "Book", "name": "Book 3: Vana Parva"},
+        {"@type": "Book", "name": "Book 4: Virata Parva"},
+        {"@type": "Book", "name": "Book 5: Udyoga Parva"},
+        {"@type": "Book", "name": "Book 6: Bhishma Parva"},
+        {"@type": "Book", "name": "Book 7: Drona Parva"},
+        {"@type": "Book", "name": "Book 8: Karna Parva"},
+        {"@type": "Book", "name": "Book 9: Shalya Parva"},
+        {"@type": "Book", "name": "Book 10: Sauptika Parva"},
+        {"@type": "Book", "name": "Book 11: Stri Parva"},
+        {"@type": "Book", "name": "Book 12: Shanti Parva"},
+        {"@type": "Book", "name": "Book 13: Anushasana Parva"},
+        {"@type": "Book", "name": "Book 14: Ashvamedhika Parva"},
+        {"@type": "Book", "name": "Book 15: Ashramavasika Parva"},
+        {"@type": "Book", "name": "Book 16: Mausala Parva"},
+        {"@type": "Book", "name": "Book 17: Mahaprasthanika Parva"},
+        {"@type": "Book", "name": "Book 18: Svargarohana Parva"}
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <header class="main-header">
+    <h1>The Mahabharata</h1>
+    <p>Transcripted in English</p>
+  </header>
+
+  <!-- Container for the Table of Contents -->
+  <main id="toc-container" class="container"></main>
+
+  <!-- Container for the Reader -->
+  <div id="reader-container" class="container hidden">
+    <h2 id="chapter-title"></h2>
+    <div id="text"></div>
+    <div id="navigation-controls">
+      <button id="prev-chapter-btn" class="btn nav-btn">Previous Chapter</button>
+      <button id="home-btn" class="btn home-btn">Return to Contents</button>
+      <button id="next-chapter-btn" class="btn nav-btn">Next Chapter</button>
+    </div>
+  </div>
+
+  <!-- Go to Top Button -->
+  <button id="go-to-top-btn" title="Go to top">▲</button>
+
+</body>
+</html>
