@@ -14,17 +14,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const EPIC_CONFIG = {
         mahabharata: {
             name: "The Mahabharata",
-            folder: "text/",
+            folder: "text_1/",
             structure: [
-                { name: "Adi Parva", chapters: 236 }, { name: "Sabha Parva", chapters: 81 },
-                { name: "Vana Parva", chapters: 315 }, { name: "Virata Parva", chapters: 72 },
+                { name: "Adi Parva", chapters: 236 }, { name: "Sabha Parva", chapters: 80 },
+                { name: "Vana Parva", chapters: 313 }, { name: "Virata Parva", chapters: 22 },
                 { name: "Udyoga Parva", chapters: 199 }, { name: "Bhishma Parva", chapters: 124 },
-                { name: "Drona Parva", chapters: 204 }, { name: "Karna Parva", chapters: 96 },
+                { name: "Drona Parva", chapters: 203 }, { name: "Karna Parva", chapters: 96 },
                 { name: "Shalya Parva", chapters: 65 }, { name: "Sauptika Parva", chapters: 18 },
                 { name: "Stri Parva", chapters: 27 }, { name: "Shanti Parva", chapters: 365 },
-                { name: "Anushasana Parva", chapters: 168 }, { name: "Ashvamedhika Parva", chapters: 92 },
-                { name: "Ashramavasika Parva", chapters: 39 }, { name: "Mausala Parva", chapters: 9 },
-                { name: "Mahaprasthanika Parva", chapters: 3 }, { name: "Svargarohana Parva", chapters: 5 },
+                { name: "Anushasana Parva", chapters: 162 }, { name: "Ashvamedhika Parva", chapters: 9 },
+                { name: "Ashramavasika Parva", chapters: 39 }, { name: "Mausala Parva", chapters: 8 },
+                { name: "Mahaprasthanika Parva", chapters: 3 }, { name: "Svargarohana Parva", chapters: 6 },
             ]
         },
         ramayana: {
@@ -32,9 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
             folder: "text_2/",
             structure: [
                 { name: "Bala Kanda", chapters: 77 }, { name: "Ayodhya Kanda", chapters: 119 },
-                { name: "Aranya Kanda", chapters: 75 }, { name: "Kishkindha Kanda", chapters: 67 },
-                { name: "Sundara Kanda", chapters: 68 }, { name: "Yuddha Kanda", chapters: 128 },
-                { name: "Uttara Kanda", chapters: 111 },
+                { name: "Aranya Kanda", chapters: 76 }, { name: "Kishkindha Kanda", chapters: 67 },
+                { name: "Sundara Kanda", chapters: 66 }, { name: "Yuddha Kanda", chapters: 130 },
             ]
         }
     };
