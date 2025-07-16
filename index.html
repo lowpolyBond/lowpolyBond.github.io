@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- SEO Meta Tags -->
-  <title>The Mahabharata | An Epic Narrative</title>
-  <meta name="description" content="An accessible, easy-to-navigate web version of the ancient Indian epic, the Mahabharata. Explore all 18 books and their chapters.">
-  <meta name="keywords" content="Mahabharata, ancient epic, Hindu scripture, Pandavas, Kauravas, Bhagavad Gita">
+  <title>Indian Epics | Read the Mahabharata and Ramayana</title>
+  <meta name="description" content="An accessible, easy-to-navigate web version of the ancient Indian epics, the Mahabharata and the Ramayana. Explore all books and chapters of these timeless narratives.">
+  <meta name="keywords" content="Mahabharata, Ramayana, Indian Epics, Hindu scripture, Pandavas, Kauravas, Rama, Sita, Hanuman">
   <meta name="author" content="Debrup Mukherjee">
 
   <!-- Stylesheet and Script -->
@@ -20,49 +20,38 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "The Mahabharata | An Epic Narrative",
-    "url": "https://dmukherjeetextiles.github.io/",
-    "mainEntity": {
-      "@type": "Book",
-      "name": "The Mahabharata",
-      "author": {
-        "@type": "Person",
-        "name": "Vyasa"
+    "name": "Indian Epics | Read the Mahabharata and Ramayana",
+    "url": "https://lowpolybond.github.io/",
+    "description": "Read the full text of the Mahabharata and the Ramayana online.",
+    "mainEntity": [
+      {
+        "@type": "Book",
+        "name": "The Mahabharata",
+        "author": { "@type": "Person", "name": "Vyasa" },
+        "genre": "Epic poetry"
       },
-      "genre": "Epic poetry",
-      "hasPart": [
-        {"@type": "Book", "name": "Book 1: Adi Parva"},
-        {"@type": "Book", "name": "Book 2: Sabha Parva"},
-        {"@type": "Book", "name": "Book 3: Vana Parva"},
-        {"@type": "Book", "name": "Book 4: Virata Parva"},
-        {"@type": "Book", "name": "Book 5: Udyoga Parva"},
-        {"@type": "Book", "name": "Book 6: Bhishma Parva"},
-        {"@type": "Book", "name": "Book 7: Drona Parva"},
-        {"@type": "Book", "name": "Book 8: Karna Parva"},
-        {"@type": "Book", "name": "Book 9: Shalya Parva"},
-        {"@type": "Book", "name": "Book 10: Sauptika Parva"},
-        {"@type": "Book", "name": "Book 11: Stri Parva"},
-        {"@type": "Book", "name": "Book 12: Shanti Parva"},
-        {"@type": "Book", "name": "Book 13: Anushasana Parva"},
-        {"@type": "Book", "name": "Book 14: Ashvamedhika Parva"},
-        {"@type": "Book", "name": "Book 15: Ashramavasika Parva"},
-        {"@type": "Book", "name": "Book 16: Mausala Parva"},
-        {"@type": "Book", "name": "Book 17: Mahaprasthanika Parva"},
-        {"@type": "Book", "name": "Book 18: Svargarohana Parva"}
-      ]
-    }
+      {
+        "@type": "Book",
+        "name": "The Ramayana",
+        "author": { "@type": "Person", "name": "Valmiki" },
+        "genre": "Epic poetry"
+      }
+    ]
   }
   </script>
 </head>
 <body>
 
   <header class="main-header">
-    <h1>The Mahabharata</h1>
-    <p>Transcripted in English</p>
+    <h1>Indian Epics</h1>
+    <p>The Mahabharata & The Ramayana</p>
   </header>
 
+  <!-- Container for the main epic selection -->
+  <main id="main-selection-container" class="container"></main>
+
   <!-- Container for the Table of Contents -->
-  <main id="toc-container" class="container"></main>
+  <div id="toc-container" class="container hidden"></div>
 
   <!-- Container for the Reader -->
   <div id="reader-container" class="container hidden">
