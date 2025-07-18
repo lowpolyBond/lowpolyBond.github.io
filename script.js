@@ -32,8 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
             folder: "text_2/",
             structure: [
                 { name: "Bala Kanda", chapters: 77 }, { name: "Ayodhya Kanda", chapters: 119 },
-                { name: "Aranya Kanda", chapters: 76 }, { name: "Kishkindha Kanda", chapters: 67 },
-                { name: "Sundara Kanda", chapters: 66 }, { name: "Yuddha Kanda", chapters: 130 },
+                { name: "Aranya Kanda", chapters: 75 }, { name: "Kishkindha Kanda", chapters: 67 },
+                { name: "Sundara Kanda", chapters: 68 }, { name: "Yuddha Kanda", chapters: 131 },
+                { name: "Uttara Kanda", chapters: 111 },
             ]
         }
     };
